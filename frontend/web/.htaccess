@@ -1,0 +1,13 @@
+RewriteEngine on
+
+# если это папка или файл, открываем его
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# в противном случае перенаправляем на index.php
+RewriteRule . index.php
+
+RewriteCond %{SERVER_PORT} ^443$ [OR]
+RewriteCond %{HTTPS} =on
+RewriteRule ^(.*)$ http://symbweb.ru/$1 [R=301,L]
+

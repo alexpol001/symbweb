@@ -1,0 +1,381 @@
+@media (min-width: 1199px) {
+    .site-index .advantage .advantage-info .advantage-wrap .advantage-text {
+        width: 45%;
+    }
+
+    .site-index .advantage .advantage-info .advantage-wrap .advantage-image {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-menu .navbar-brand img {
+        max-width: 200px;
+    }
+
+    footer .bottom .logo-platforms .logo-platform {
+        height: 50px;
+    }
+
+    .site-index .slider .owl-prev, .site-index .slider .owl-next {
+        margin-top: -40px;
+    }
+
+    .site-index .slider .owl-prev i, .site-index .slider .owl-next i {
+        margin: 15px 10px;
+        font-size: 50px;
+    }
+
+    .site-index .advantage .advantage-info .advantage-wrap .advantage-text {
+        width: 63%;
+        margin-left: -5%;
+    }
+
+    .site-service .service-section.seo-section .description {
+        min-height: 160px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    footer .top .map h2{
+        margin-bottom: 0;
+    }
+
+    .main-menu .menu-wrap {
+        width: auto;
+    }
+
+    .main-header .top p:nth-child(2) {
+        padding-left: 15px;
+    }
+
+    .main-header .top p:last-child {
+        padding-left: 40px;
+    }
+
+    .main-menu .navbar-nav .menu-item .menu-item-wrap {
+        font-size: 0.875em;
+        padding: 10px 16px;
+    }
+
+    .main-menu .sub-menu {
+        display: none !important;
+    }
+
+    .site-index .slider {
+        text-align: center;
+        height: auto;
+        min-height: auto;
+    }
+
+    .site-index .slider .slide {
+        min-height: auto;
+    }
+
+    .site-index .slider .slide .slide-image {
+        margin: 0;
+        text-align: center;
+    }
+
+    .site-index .slider .slide .slide-image img {
+        display: inline-block;
+    }
+
+    .site-index .slider .slide .slide-text .show-case {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .site-index .advantage .advantage-info .advantage-wrap .advantage-text {
+        width: 100%;
+        margin-left: -5%;
+    }
+
+    .site-index .service h2 {
+        margin-bottom: 40px;
+    }
+
+    .site-service .service-section .service-item {
+        margin-top: 15px;
+    }
+
+    .site-service .service-section.create-section .description {
+        min-height: 100px;
+    }
+
+    .site-service .circus-section .circus-item:first-child {
+        padding-right: 15px;
+    }
+
+    .site-service .circus-section .circus-item:nth-child(2) {
+        padding-left: 15px;
+    }
+
+    .inner .site-portfolio hr,
+    .site-portfolio .portfolio-list {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item a h3 {
+        top: 120px;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item a.portfolio-content .description {
+        border: 2px solid #ff8615;
+    }
+
+    .site-price-list .price-list-table .price-desc,
+    .site-price-list .price-list-table th:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .site-price-list .price-list-table .price-title,
+    .site-price-list .price-list-table th:first-child {
+        min-width: auto;
+    }
+
+    .site-contact .region .map {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-header {
+        padding-bottom: 100px;
+        min-width: 100%;
+    }
+
+    .main-header .top {
+        display: none;
+    }
+
+    .main-menu {
+        margin-top: 0;
+        padding: 5px 0;
+        background-color: #e1e2e2;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .main-menu .container > .navbar-header {
+        position: static;
+    }
+
+    .main-menu .online-top {
+        margin-top: 5px;
+    }
+
+    .main-menu .contact {
+        display: inline-block;
+    }
+
+    .main-menu .navbar-nav {
+        background: #ff9411;
+        padding: 0;
+    }
+
+    .main-menu .menu-wrap .menu-item {
+        display: block;
+    }
+
+    .main-menu .navbar-nav .menu-item .menu-item-wrap{
+        border-left: none !important;
+        padding: 0;
+    }
+
+    .main-menu .navbar-nav .menu-item:not(:first-child) {
+        border-top: 1px solid #fff;
+    }
+
+    .main-menu .navbar-nav .menu-item:hover a {
+        color: #535353;
+    }
+
+    .main-menu .menu-wrap {
+        width: 100%;
+        float: none;
+    }
+
+    footer .top,
+    footer .top .right,
+    footer .top .right .right-wrap {
+        text-align: center;
+    }
+
+    footer .top {
+        padding-top: 20px;
+    }
+
+    footer .bottom {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    footer .bottom .copyright {
+        margin-bottom: 15px;
+    }
+
+    footer .bottom .logo-platforms {
+        text-align: inherit;
+        white-space: normal;
+        margin-left: 0;
+        display: inline-block;
+        width: 200px;
+    }
+
+    footer .bottom .logo-platforms .col-sm-6 {
+        padding: 0;
+    }
+
+    footer .bottom .logo-platforms .logo-platform {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .bottom .logo-platforms .logo-platform.logo-4 {
+        margin-bottom: 0;
+    }
+
+    .site-service .service-section .service-item .description {
+        min-height: auto !important;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item a.portfolio-content h3 {
+        display: none;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item a.portfolio-content .description {
+        display: block;
+        position: static;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item a.portfolio-content .description h3 {
+        display: block;
+    }
+
+    .site-portfolio .portfolio-list .portfolio-item a.portfolio-content .description ul {
+        display: none;
+    }
+
+    .site-price-list .price-list-table .price-desc,
+    .site-price-list .price-list-table th:nth-child(2) {
+        display: none
+    }
+
+    .site-price-list .price-list-table .price-title,
+    .site-price-list .price-list-table th:first-child {
+        padding-right: 15px;
+    }
+
+    .online-order .modal-content .modal-body .captcha-input {
+        float: left;
+    }
+
+    .wow {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 768px) {
+    #myModalCall .modal-dialog {
+        width: 400px;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-menu .contact {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .main-menu .contact .phone,
+    .main-menu .contact .email {
+        display: block;
+    }
+
+    .main-menu .contact .phone {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-menu .navbar-brand img {
+        max-width: 150px;
+    }
+
+    .main-menu .contact {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 0.875em;
+    }
+
+    .main-menu .navbar-toggle {
+        padding-top: 0;
+        margin-top: 4px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .site-price-list .price-list-table .price-value,
+    .site-price-list .price-list-table th:last-child {
+        width: auto;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .site-price-list .price-list-table td:nth-child(2).price-value {
+        display: none;
+    }
+
+    .site-price-list .price-list-table .old-price,
+    .site-price-list .price-list-table .price {
+        display: block;
+    }
+
+    .site-price-list .price-list-table .price {
+        float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-menu .navbar-brand img {
+        max-width: 220px;
+    }
+
+    .main-menu .contact {
+        display: none;
+    }
+
+    .main-menu .navbar-toggle {
+        margin-top: 16px;
+    }
+
+    footer .top .contact-table {
+        font-size: 1em;
+    }
+
+    footer .top .contact-table td:first-child {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        overflow-x: auto !important;
+    }
+}
